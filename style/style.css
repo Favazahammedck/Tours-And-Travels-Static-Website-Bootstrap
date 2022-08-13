@@ -1,0 +1,659 @@
+html,body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+#logo {
+  height: 100px;
+  width: 320px;
+}
+nav {
+  height: 100px;
+}
+#searchBtn {
+  height: 40px;
+  width: 40px;
+  margin-left: 48px;
+}
+@font-face {
+  font-family: "Avenir";
+  src: url("../fonts/Avenir.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Avenir.woff") format("woff"),
+    url("../fonts/Avenir.ttf") format("truetype"),
+    url("../fonts/Avenir.svg#Avenir") format("svg");
+}
+nav .navbar-nav li a {
+  color: #41b6e6 !important;
+  font-size: 15px;
+  font-family: Avenir black;
+  margin-top: 40px;
+}
+nav .navbar-nav li img {
+  margin-top: 40px;
+}
+.firstImgDiv {
+  position: relative;
+  height: 550px;
+  width: 100%;
+}
+.firstImgDiv img {
+  height: 550px;
+  width: 100%;
+  background-image: linear-gradient(to right, #000000);
+}
+.heading {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+#traveQuote {
+  margin-top: 10px;
+}
+#quoteDes {
+  margin-top: 20px;
+}
+#roundDiv {
+  margin-top: 210px;
+}
+
+.learMore {
+  margin-top: 25px;
+  height: 40px;
+  width: 150px;
+}
+#firstTd {
+  border: 1px solid #41b6e6;
+}
+#secondTd {
+  border: 1px solid #41b6e6;
+}
+#firstTd {
+  font-family: "Avenir Medium";
+  width: 290px;
+  height: 30px;
+  padding-left: 10px;
+}
+#secondTd {
+  width: 50px;
+  padding-left: 10px;
+}
+.round {
+  width: 12px;
+  height: 12px;
+  border: 1px solid #ffffff;
+}
+#thirdRound {
+  background-color: #41b6e6;
+}
+@media screen and (max-width: 731px) {
+  #roundDiv {
+    margin-top: 140px;
+  }
+}
+@media screen and (max-width: 460px) {
+  #roundDiv {
+    margin-top: 40px;
+  }
+}
+/* sction 2 */
+#wordTravelHead {
+  font-family: "Avenir Medium";
+}
+.wtHead {
+  margin-top: 70px;
+  max-width: 450px;
+  position: absolute;
+  color: white;
+  margin-left: 700px;
+}
+@media screen and (max-width: 1264px) {
+  .wtHead {
+    margin-left: 400px;
+    max-width: auto;
+  }
+}
+@media screen and (max-width: 864px) {
+  .wtHead {
+    margin-left: 200px;
+    max-width: auto;
+  }
+}
+@media screen and (max-width: 510px) {
+  .wtHead {
+    margin-left: 1px;
+    max-width: auto;
+  }
+}
+#wtHeadingColor {
+  color: #0072ce;
+}
+#wtDes {
+  margin-top: 50px;
+  color: #231f20;
+}
+.learnMoreSecond {
+  margin-top: 25px;
+}
+#secondTdsec {
+  border: 1px solid #41b6e6;
+  height: 20px;
+  width: 20px;
+  padding-left: 5px;
+}
+#lmSec {
+  font-family: "Avenir Medium";
+}
+/* forex div */
+.forexH1 {
+  margin-top: 70px;
+  color: #0072ce;
+  margin-bottom: 50px;
+}
+.firstBigDivForex {
+  display: flex;
+  height: 570px;
+  width: 608px;
+  background-color: #41b6e6;
+  margin-left: 220px;
+}
+#forexBigImg {
+  width: 274px;
+  height: 350px;
+  margin-left: 50px;
+  margin-top: 100px;
+}
+.contents {
+  justify-content: flex-end;
+}
+#p1,
+#p2,
+#p3 {
+  width: 220px;
+  margin-left: 30px;
+  color: #ffffff;
+}
+#p1 {
+  font-family: "Avenir Book";
+  font-size: 13px;
+  margin-top: 100px;
+}
+#p2 {
+  margin-top: 20px;
+  font-family: "Avenir Medium";
+  font-size: 21px;
+}
+#p3 {
+  margin-top: 30px;
+  font-family: "Avenir Medium";
+  font-size: 14px;
+}
+.learnMoreForex1 {
+  display: flex;
+  justify-content: end;
+}
+#lmForex1 {
+  font-family: "Avenir Book";
+  font-size: 12px;
+  color: #808080;
+}
+#forexFiArrow {
+  height: 20px;
+  width: 25px;
+  padding-left: 5px;
+  background-color: #41b6e6;
+  color: #ffffff;
+}
+@media screen and (max-width: 1393px) {
+  .firstBigDivForex {
+    margin-left: 0px;
+    width: auto;
+  }
+  #p1,
+  #p2,
+  #p3 {
+    width: auto;
+    margin-left: 30px;
+    color: #ffffff;
+  }
+}
+@media screen and (max-width: 700px) {
+  .firstBigDivForex {
+    margin-left: 0px;
+    width: auto;
+  }
+  #p1,
+  #p2,
+  #p3 {
+    margin-left: 7px;
+  }
+  #forexBigImg {
+    width: 204px;
+    height: 250px;
+    margin-left: 0px;
+    margin-top: 100px;
+  }
+  .learnMoreForex1 {
+    margin-left: auto;
+  }
+}
+/* forex small div 1st */
+.firstSmallContent {
+  width: 198px;
+  height: 250px;
+  background-color: #e6e7e8;
+  margin-left: 5px;
+}
+#des1,
+#des2 {
+  padding: 15px;
+}
+#des1 {
+  font-family: "Avenir Book";
+  font-size: 13px;
+  color: #6d6e70;
+}
+#des2 {
+  margin-top: -20px;
+  font-family: "Avenir Medium";
+  font-size: 18px;
+  color: #0072ce;
+}
+.learnMoreForexTwo {
+  max-width: 210px;
+  margin-left: 299px;
+}
+.forexCardTwo {
+  margin-top: 40px;
+}
+.viewMoreForex {
+  width: 130px;
+  margin-top: 50px;
+  color: #0072ce;
+  font-size: 13px;
+  margin-bottom: 70px;
+}
+@media screen and (max-width: 404px) {
+  .firstSmallContent {
+    width: 150px;
+    height: auto;
+  }
+  .learnMoreForexTwo {
+    margin-left: 196px;
+  }
+  #forexCenterImgSmallOne {
+    margin-top: 68px;
+  }
+  #forexCenterImgSmallTwo {
+    margin-top: 68px;
+  }
+}
+/* flights div */
+.flightsMainDiv {
+  background-color: #f2f2f2;
+  height: 650px;
+}
+#flightsFirstDiv {
+  max-width: 546px;
+}
+#flightImgBig {
+  max-width: 546px;
+  height: 354px;
+}
+#flightContentFirstP {
+  margin-top: 130px;
+  margin-left: 50px;
+  font-family: "Avenir Book";
+  font-size: 13px;
+}
+#flightContentSecP {
+  margin-top: 30px;
+  font-family: "Avenir Medium";
+  font-size: 21px;
+  margin-left: 50px;
+}
+.flightsH1 {
+  padding-top: 50px;
+  color: #0072ce;
+  margin-bottom: 50px;
+}
+.learnMoreFlightFirst {
+  margin-left: 415px;
+}
+#fligtCards {
+  display: flex;
+}
+#firstCardFlights {
+  margin-left: 80px;
+  max-height: 354px;
+}
+
+#cardHeading {
+  margin-top: 25px;
+  margin-left: 20px;
+
+  font-family: "Avenir Book";
+  font-size: 13px;
+  color: #41b6e6;
+}
+#cardTexts {
+  margin-top: 20px;
+  font-family: "Avenir Medium";
+  font-size: 21px;
+  color: #6d6e70;
+  margin-left: 20px;
+}
+#secondCardFlights {
+  margin-left: 50px;
+  max-height: 354px;
+}
+@media screen and (max-width: 1199px) {
+  #fligtCards {
+    display: block;
+  }
+  .flightsMainDiv {
+    height: auto;
+  }
+  #secondCardFlights {
+    margin-left: 100px;
+    margin-top: 30px;
+  }
+  #firstCardFlights {
+    margin-top: 50px;
+    margin-left: 100px;
+  }
+}
+@media screen and (max-width: 875px) {
+  #fligtCards {
+    display: block;
+  }
+  #secondCardFlights {
+    margin-left: 90px;
+    margin-top: 30px;
+  }
+  #firstCardFlights {
+    margin-top: 50px;
+    margin-left: 90px;
+  }
+  .flightsMainDiv {
+    height: auto;
+  }
+}
+@media screen and (min-width: 582px) and (max-width: 849px) {
+  #firstAndSecondForexSmallDiv {
+    margin-left: 180px;
+  }
+}
+@media screen and (min-width: 850px) and (max-width: 1200px) {
+  #firstAndSecondForexSmallDiv {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+}
+/* SERVICES AND PLACES SECTION (righ section and left section div)*/
+#rightSectionMainDiv {
+  height: 954px;
+  background-color: #04a0a0;
+  opacity: 0.8;
+}
+#leftSectionMainDiv {
+  height: 954px;
+  opacity: 0.8;
+  background-color: #002e5d;
+}
+
+.servMainHead {
+  margin-top: 60px;
+  margin-left: 120px;
+  color: #ffffff;
+  margin-bottom: 70px;
+}
+.calander1st {
+  height: 100px;
+  width: 100px;
+  background-color: #ffffff;
+  text-align: center;
+  margin-left: 120px;
+}
+
+.month {
+  width: 100px;
+  height: 25px;
+  background-color: #002e5d;
+}
+#march {
+  font-family: "Avenir Black";
+  color: #ffffff;
+}
+.servAndContactMain {
+  color: white;
+}
+#date {
+  color: #0072ce;
+  font-size: 55px;
+  font-family: "Avenir Light";
+}
+.serviceContent {
+  margin-left: 265px;
+  max-width: 320px;
+  margin-top: -108px;
+}
+
+.belowHrServices {
+  margin-top: 74px;
+  margin-left: 115px;
+  width: 500px;
+  color: #ffffff;
+}
+#calanderContent {
+  font-family: "Avenir Medium";
+  font-size: 21px;
+  color: #ffffff;
+}
+#calandarBelowContent {
+  font-family: "Avenir Book";
+  font-size: 13px;
+  margin-top: 13px;
+  color: #ffffff;
+}
+
+.viewAllRight {
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+}
+.viewAllLeft {
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+}
+
+#firstLeft {
+  color: #ffffff;
+}
+/* reusable viewall */
+.viewAllRight td {
+  color: white;
+}
+
+#first {
+  border: 1px solid #ffffff;
+  font-family: "Avenir Medium";
+
+  width: 290px;
+  height: 30px;
+  padding-left: 10px;
+}
+
+#second {
+  border: 1px solid #ffffff;
+
+  width: 50px;
+  padding-left: 10px;
+}
+.placeImg {
+  margin-left: 60px;
+  margin-top: 23px;
+  width: 172px;
+  height: 112px;
+}
+
+.belowHr {
+  margin-top: 74px;
+  margin-left: 50px;
+  width: 500px;
+  color: #ffffff;
+}
+#placesBelowContent {
+  color: #61d4f7;
+}
+.fullDivSerCont {
+  display: flex;
+  position: relative;
+  height: 950px;
+  width: 100%;
+}
+.bgcImgSerCont {
+  height: 950px;
+  width: 100%;
+}
+#servicesAndPlacesSection {
+  margin-top: -953px;
+}
+
+@media screen and (max-width: 570px) {
+  .calander1st {
+    margin-left: 0px;
+  }
+  .serviceContent {
+    margin-left: 110px;
+  }
+  .placeImg {
+    margin-left: 0px;
+    width: 108px;
+  }
+  .bgcImgSerCont {
+    display: none;
+  }
+}
+#lastViewAllTd {
+  border: 1px solid #ffffff;
+  font-family: "Avenir Medium";
+
+  width: 290px;
+  height: 30px;
+  padding-left: 10px;
+  color: #ffffff;
+}
+
+#lastViewAllArrow {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  width: 50px;
+  padding-left: 10px;
+}
+@media screen and (min-width: 992px) and (max-width: 1184px) {
+  .viewAllRight {
+    margin-top: -100px;
+  }
+  .viewAllLeft {
+    margin-top: -100px;
+  }
+}
+@media screen and (max-width: 404px) {
+  .viewAllLeft {
+    margin-top: -140px;
+  }
+  .viewAllRight {
+    margin-top: -140px;
+  }
+}
+/* footer 1 */
+
+#footerFirst {
+  background-color: #404041;
+  color: #ffffff;
+  height: auto;
+}
+.firstDivFooter {
+  display: flex;
+}
+.navItems {
+  margin-top: 50px;
+  margin-left: 200px;
+}
+.vl {
+  border-left: 1px solid #f4f0ea;
+  margin-left: 73px;
+  height: 184px;
+  margin-top: 50px;
+}
+.secondDivFooter {
+  display: flex;
+  margin-left: 50px;
+}
+#connectWithUs {
+  margin-left: 0px;
+  margin-top: 133px;
+  font-family: "Avenir Black";
+  font-size: 16px;
+  color: #ffffff;
+}
+.icons {
+  height: 35px;
+  width: 35px;
+}
+
+.SMicons {
+  margin-top: 123px;
+  margin-left: 20px;
+}
+.vl2 {
+  border-left: 1px solid #f4f0ea;
+  margin-left: 73px;
+  height: 184px;
+  margin-top: 50px;
+}
+
+#subNewsLetter {
+  margin-left: 50px;
+  margin-top: 55px;
+  font-family: "Avenir Black";
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.email {
+  margin-top: 45px;
+  width: 250px;
+  height: 38px;
+  background-color: #ffffff;
+  margin-left: 0px;
+  color: #808080;
+  font-size: 13px;
+  padding: 12px;
+}
+#subscribe {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  width: 100px;
+  height: 38px;
+  padding: 8px;
+  font-size: 14px;
+  font-family: "Avenir Medium";
+  margin-left: 255px;
+  margin-top: -38px;
+}
+
+/* final footer */
+#finalFooter {
+  background-color: #e6e7e8;
+  height: 60px;
+}
+#finalFooter p {
+  color: #59595c;
+  font-size: 14px;
+  font-family: Avenir Roman;
+}
